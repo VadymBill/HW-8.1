@@ -1,0 +1,27 @@
+td:hover {
+  color: yellow;  
+}
+td:focus {
+   color: pink ;
+}
+td:empty {
+    background-color: #ffcccc;
+}
+tbody tr:nth-child(even) td {
+    background-color: red;
+}
+tbody tr:nth-child(odd) td {
+  color: blue;
+}
+tbody tr:nth-child(3n+3) td {
+   font-style: italic;
+}
+td:first-child {
+    color: blueviolet;
+}
+td:last-child {
+   color:brown;
+}
+td:hover {
+    color: yellow;  
+  }
